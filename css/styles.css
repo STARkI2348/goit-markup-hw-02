@@ -80,13 +80,13 @@ a {
 }
 
 .hero_btn {
-  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 
@@ -142,6 +142,10 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.time_list_item {
+  background-color: #ffffff;
 }
 
 .portfolio_title {
