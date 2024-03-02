@@ -1,3 +1,29 @@
 body {
   font-family: "Roboto";
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo_link {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo_link_style_header {
+  color: #2e2f42;
+}
+
+.logo_link_style_footer {
+  color: #f4f4fd;
+}
