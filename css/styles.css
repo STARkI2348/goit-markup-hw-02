@@ -52,15 +52,10 @@ a {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
 }
 
 .hero_btn {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   background-color: #4d5ae5;
 
   font-weight: 500;
@@ -98,19 +93,6 @@ a {
   color: #2e2f42;
 }
 
-.time_list_item {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  background-color: #ffffff;
-}
-
-.time_img {
-  width: 264px;
-  height: 260px;
-}
-
 .time_subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -133,16 +115,6 @@ a {
   line-height: 111%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.portfolio_list_item {
-  width: 360px;
-  height: 420px;
-}
-
-.portfolio_img {
-  width: 360px;
-  height: 300px;
 }
 
 .portfolio_subtitle {
