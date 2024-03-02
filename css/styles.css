@@ -38,11 +38,11 @@ a {
   color: #2e2f42;
 }
 
-.header_manu_link:hover {
+.header_manu_link_index:hover {
   color: #404bbf;
 }
 
-.header_manu_link:focus {
+.header_manu_link_index:focus {
   color: #404bbf;
 }
 
