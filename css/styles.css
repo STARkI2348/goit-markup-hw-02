@@ -86,8 +86,12 @@ a {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4d5ae5;
+
   cursor: pointer;
+}
+
+.hero_btn {
+  background-color: #4d5ae5;
 }
 
 .hero_btn:hover {
