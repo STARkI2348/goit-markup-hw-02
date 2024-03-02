@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -11,6 +11,7 @@ a {
 }
 
 .logo_link {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -35,12 +36,24 @@ a {
   color: #2e2f42;
 }
 
+.address {
+  font-style: normal;
+}
+
 .address_link {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.address_link:hover {
+  color: #404bbf;
+}
+
+.address_link:focus {
+  color: #404bbf;
 }
 
 .hero {
@@ -57,12 +70,21 @@ a {
 
 .hero_btn {
   background-color: #4d5ae5;
-
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: #f4f4fd;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero_btn:hover {
+  background-color: #404bbf;
+}
+
+.hero_btn {
+  background-color: #404bbf;
 }
 
 .info_list_item_subtitle {
@@ -91,6 +113,8 @@ a {
   line-height: 111%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .time_subtitle {
@@ -115,6 +139,8 @@ a {
   line-height: 111%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio_subtitle {
@@ -131,6 +157,10 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.portfolio_img {
+  width: 360;
 }
 
 .footer {
